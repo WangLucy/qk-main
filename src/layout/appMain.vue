@@ -22,7 +22,7 @@ export default {
        // const router = useRouter()
         const props = {
             insertType: 'qiankun',
-            appRouters: router.options.routes
+            appRouters: router
         }
         const genActiveRule = routerPrefix => {
             return location => location.pathname.startsWith(routerPrefix)
